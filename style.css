@@ -1,3 +1,11 @@
 h1 {
-    align-self: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 1cm;
+    display: inline-block;
 }
