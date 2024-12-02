@@ -1,3 +1,10 @@
+#menutop, #sources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
     margin: 1cm;
@@ -28,4 +35,36 @@ th{
 }
 td{
     border: 1px solid black;
+}
+
+#task1h1 {
+    color: green;
+    margin: initial;
+}
+
+#task1p {
+    width: 100%;
+    text-align: justify;
+    font-style: italic;
+    margin: 1cm 0;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+}
+
+#columns div {
+    min-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    #columns {
+        flex-direction: column;
+    }
+}
+
+#sources a:hover {
+    background-color: blue;
+    color: black;
 }
