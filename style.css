@@ -1,7 +1,16 @@
 h1 {
     text-align: center;
-    margin: 1 cm;
+    margin: 1cm;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 1cm;
+    display: inline-block;
+}
+
 
 table {
     border-collapse: collapse;
