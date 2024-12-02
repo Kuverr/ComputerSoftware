@@ -68,3 +68,17 @@ td{
     background-color: blue;
     color: black;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+#task4form input {
+    background-color: blue;
+}
+
+#task4form button {
+    background-color: orange;
+    margin-right: 1cm;
+}
