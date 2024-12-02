@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin: 1cm;
 }
 
 img {
@@ -9,3 +10,4 @@ img {
     margin: 1cm;
     display: inline-block;
 }
+
