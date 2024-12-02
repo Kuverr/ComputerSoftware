@@ -1,3 +1,10 @@
+#menutop, #sources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
     margin: 1cm;
@@ -11,6 +18,11 @@ img {
     display: inline-block;
 }
 
+.alpha {
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+    font-weight: bold;
+ }
 
 table {
     border-collapse: collapse;
@@ -23,4 +35,50 @@ th{
 }
 td{
     border: 1px solid black;
+}
+
+#task1h1 {
+    color: green;
+    margin: initial;
+}
+
+#task1p {
+    width: 100%;
+    text-align: justify;
+    font-style: italic;
+    margin: 1cm 0;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+}
+
+#columns div {
+    min-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    #columns {
+        flex-direction: column;
+    }
+}
+
+#sources a:hover {
+    background-color: blue;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+#task4form input {
+    background-color: blue;
+}
+
+#task4form button {
+    background-color: orange;
+    margin-right: 1cm;
 }
