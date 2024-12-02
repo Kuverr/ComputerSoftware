@@ -11,3 +11,8 @@ img {
     display: inline-block;
 }
 
+.alpha {
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+    font-weight: bold;
+ }
