@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Microsoft Windows",
+        "started":1985,
+        "softwares":[
+            "Microsoft Word",
+            "Adobe Acrobat",
+            "Microsoft Teams"
+        ],
+        "percentage of users":57.44
+    },
+    {
+        "name":"macOS",
+        "started":1999,
+        "softwares":[
+            "Adobe Illustrator",
+            "Apple Music",
+            "Adobe Photoshop"
+        ],
+        "percentage of users":29.62
+    },
+    {
+        "name":"Linux",
+        "started":1991,
+        "softwares":[
+            "Mozilla Firefox",
+            "Thunderbird",
+            "LibreOffice"
+        ],
+        "percentage of users":2.68
+    }
+]
