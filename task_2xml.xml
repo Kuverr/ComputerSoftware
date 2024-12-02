@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <Operating_system name="Windows">
+        <software>Microsoft Word</software>
+        <software>Adobe Acrobat</software>
+        <software>Adobe Photoshop</software>
+        <software>Microsoft Teams</software>
+    </Operating_system>
+    <Operating_system name="macOS">
+        <software>Adobe Illustrator</software>
+        <software>Adobe Acrobat</software>
+        <software>Adobe Photoshop</software>
+        <software>Apple Music</software>
+    </Operating_system>
+    <Operating_system name="Linux">
+        <software>Mozilla Firefox</software>
+        <software>Thunderbird</software>
+        <software>LibreOffice</software>
+        <software>VLC Media Player</software> 
+    </Operating_system>
+</data>

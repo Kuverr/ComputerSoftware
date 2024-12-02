@@ -16,3 +16,16 @@ img {
     list-style-type: upper-alpha;
     font-weight: bold;
  }
+
+table {
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+td{
+    border: 1px solid black;
+}
